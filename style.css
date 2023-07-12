@@ -1,52 +1,62 @@
-*{
-    margin:0;
+* {
+    margin: 0;
 }
+
 .tabs {
     width: 1170px;
     height: 540px;
     border: 1px solid #C6CBCD;
     margin: 0px auto;
-    margin-left:50px;
+    margin-left: 50px;
+    margin: auto;
 }
-.tab-wrapper{
-    margin:0px;
+
+.tab-wrapper {
+    margin: 0px;
 }
-.tab-wrapper__blok{
+
+.tab-wrapper__blok {
     justify-content: center;
     display: flex;
 }
-.block{
+
+.block {
     flex-grow: 1;
-    flex-basis:0;
+    flex-basis: 0;
     margin: 0 px;
 }
-.header{
-    width:1170px;
+
+.header {
+    width: 1170px;
     height: 40px;
     border: 1px solid gray;
-    margin-top:0px;
-    margin-left:50px;
+    margin-top: 0px;
+    margin-left: 50px;
     border-bottom: white;
+    margin: auto;
 }
-.tab-wrapper__title{
-width:201px;
-float:left;
-height:38px;
-border: 1px solid gray;
+
+.tab-wrapper__title {
+    width: 201px;
+    float: left;
+    height: 38px;
+    border: 1px solid gray;
 }
 
 .img {
     width: 470px;
     height: 500px;
-    
+
 }
-.block_text{
+
+.block_text {
 
     width: 570px;
 
 }
-.button{
-    background:brown ;
+
+.button {
+    background: brown;
     color: white;
     width: 270px;
     height: 58px;
@@ -63,6 +73,7 @@ border: 1px solid gray;
 h2 {
     text-align: center;
     font-size: 36px;
+    margin: 100px auto;
 }
 
 .line {
@@ -81,7 +92,6 @@ h2 {
 .advantages_block {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
 }
 
 .block {
@@ -89,6 +99,7 @@ h2 {
     height: 383px;
     display: flex;
     flex-direction: column;
+    margin: auto;
 
 }
 
@@ -104,6 +115,7 @@ h2 {
 .block p {
     text-align: center;
     font-size: 18px;
+    margin: auto;
 }
 
 body {
@@ -111,5 +123,158 @@ body {
 }
 
 h3 {
+    font-family: Open Sans;
+}
+
+.cards {
+    max-width: 1170px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.cards__heder {
+    text-align: center;
+    font-size: 36px;
+
+}
+
+.cards__line {
+    display: flex;
+    margin: 40px auto;
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+}
+
+.cards__subtitle {
+    font-size: 18px;
+    text-align: center;
+    color: #86878B;
+    margin: 40px auto;
+    margin-bottom: 100px;
+}
+
+.cards__block {
+    display: flex;
+    align-items: center;
+}
+
+.block h4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 370px;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+}
+
+.continer {
+    height: 100px;
+    width: 370px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 370px;
+    align-items: center;
+    background: #333333;
+    border: 2px solid #F5F5F5
+}
+
+.points {
+    height: 50px;
+    width: 370px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+h2 {
+    font-family: Raleway;
+}
+
+.block:hover {
+    margin-bottom: 40px;
+}
+
+.reviews {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.reviews__heder {
+    text-align: center;
+    font-size: 36px;
+    margin: 80px auto;
+}
+
+.reviews__line {
+    display: flex;
+    margin: 40px auto;
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+}
+
+.reviews__subtitle {
+    font-size: 18px;
+    text-align: center;
+    color: #86878B;
+    margin: 40px auto;
+    margin-bottom: 100px;
+}
+
+.reviews__text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    position: relative;
+
+}
+
+.description {
+    width: 370px;
+    height: 180px;
+    background-color: #E2E2E2;
+}
+
+.text_description {
+    margin: 40px 60px;
+}
+
+.d4 {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid #E2E2E2;
+    position: absolute;
+    bottom: -100px;
+    left: 85px;
+}
+.reviews__people{
+    display: flex;
+    justify-content: space-between
+}
+.name{
+
+}
+.people_text{
+    margin: 0px 20px;
+}
+.people_p{
+    margin-top: 20px;
+}
+h4 {
     font-family: Open Sans;
 }
