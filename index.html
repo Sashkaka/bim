@@ -17,17 +17,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
 <body>
-    <section class="header">
-        <div class="header__tabs">
-            <img class="header__logo" src="./img/logo.png" alt="">
-            <a class="header__points1">Features</a>
-            <a class="header__points">About</a>
-            <a class="header__points">Pricing</a>
-            <a class="header__points">Reviews</a>
-            <a class="header__points">Contact</a>
-        </div>
-    </section>
-        <div class="header__form">
+
+    <div class="header__width">
+        <section class="header">
+            <div class="header__tabs">
+                <img class="header__logo" src="./img/logo.png" alt="">
+                <a class="header__points1" href="#Features">Features</a>
+                <a class="header__points" href="#About">About</a>
+                <a class="header__points" href="#Pricing">Pricing</a>
+                <a class="header__points" href="#Reviews">Reviews</a>
+                <a class="header__points" href="#Contact">Contact</a>
+            </div>
+        </section>
+        <div class="header__form" id="Features">
             <img class="form__logo" src="./img/logo.svg">
             <p class="header__text">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</p>
             <div class="header__line"></div>
@@ -41,26 +43,28 @@
                             <input class="form__points" type="text" placeholder="Name">
                             <input class="form__points" type="email" placeholder="Email">
                             <input class="form__points" type="password" placeholder="Password">
+                            <button class="forms__button">Get Started</button>
                     </form>
-                    <button class="forms__button">Get Started</button>
                 </div>
-            </div>
-            <div class="footer__logo">
-                <div class="footer__left">
-                <h4 class="footer__header">Social Media</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean euismod bibendum laoreet.</p>
-                </div>
-                <img class="footer__icons" src="./img/facebook_icon.png" alt="">
-                <img class="footer__icons"  src="./img/twitter_icon.png" alt="">
-                <img class="footer__icons"  src="./img/linkedin_icon.png" alt="">
-                <img class="footer__icons"  src="./img/pinterest_icon.png" alt="">
-                <img class="footer__icons"  src="./img/instagram_icon.png" alt="">
-                <img class="footer__icons"  src="./img/github_icon.png" alt="">
-                <img class="footer__icons"  src="./img/rss_icon.png" alt="">
             </div>
         </div>
+        <div class="footer__logo">
+            <div class="footer__left">
+                <h4 class="footer__header">Social Media</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean euismod bibendum laoreet.</p>
+            </div>
+            <div class="icon">
+            <img class="footer__icons" src="./img/facebook_icon.png" alt="">
+            <img class="footer__icons" src="./img/twitter_icon.png" alt="">
+            <img class="footer__icons" src="./img/linkedin_icon.png" alt="">
+            <img class="footer__icons" src="./img/pinterest_icon.png" alt="">
+            <img class="footer__icons" src="./img/instagram_icon.png" alt="">
+            <img class="footer__icons" src="./img/github_icon.png" alt="">
+            <img class="footer__icons" src="./img/rss_icon.png" alt="">
+        </div>
+    </div>
     </section>
-    <section class="header__tab">
+    <section class="header__tab" id="About">
         <label class="tab-wrapper__title" id="title1" for="TAB 1">TAB 1</label>
         <label class="tab-wrapper__title" id="title2" for="TAB 2">TAB 2</label>
         <label class="tab-wrapper__title" id="title2" for="TAB 3">TAB 3</label>
@@ -68,9 +72,9 @@
 
     <section class="tabs">
         <div class="tab-wrapper__blok">
-            <div class="tab-wrapper__blok block">
-                <h3 style="margin-left: 20px; margin-bottom: 100px;">Tabs with soft transitioning effect.</h3>
-                <p style="margin:20px 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+            <div class="tab-wrapper__blok wrapper__block">
+                <h3 >Tabs with soft transitioning effect.</h3>
+                <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
                     bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
                     justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
                     penatibus et magnis dis parturient montes.
@@ -79,7 +83,7 @@
                     bibendum laoreet.</p>
                 <button class="button">Download</button>
             </div>
-            <img src="img/Rectangle 111.png" style="margin-right: 0px;margin-top: 0px;" alt="">
+            <img class="block__img" src="img/Rectangle 111.png" style="margin-right: 0px;margin-top: 0px;" alt="">
         </div>
     </section>
 
@@ -90,19 +94,19 @@
             <p class="text_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div class="advantages_block">
-            <div class="block">
+            <div class="block__flex">
                 <img src="img/about_icon_1.png" alt="">
                 <h3>Thoughtful Design</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscingelit. Aenean euismod bibendum laoreet. Proin
                     gravida dolor sit amet lacus accumsan et viverra.</p>
             </div>
-            <div class="block">
+            <div class="block__flex">
                 <img src="img/about_icon_2.png" alt="">
                 <h3>Thoughtful Design</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscingelit. Aenean euismod bibendum laoreet. Proin
                     gravida dolor sit amet lacus accumsan et viverra.</p>
             </div>
-            <div class="block">
+            <div class="block__flex">
                 <img src="img/about_icon_3.png" alt="">
                 <h3>Thoughtful Design</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscingelit. Aenean euismod bibendum laoreet. Proin
@@ -112,7 +116,7 @@
     </section>
 
     <section class="cards">
-        <h2 class="cards__heder">PRICING OPTIONS</h2>
+        <h2 class="cards__heder" id="Pricing">PRICING OPTIONS</h2>
         <div class="cards__line"></div>
         <div class="cards_subtitle">
             <p class="cards__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -153,7 +157,7 @@
             </div>
         </div>
     </section>
-    <section class="reviews">
+    <section class="reviews" id="Reviews">
         <h2 class="reviews__heder">WHAT OUR CUSTOMERS ARE SAYING</h2>
         <div class="reviews__line"></div>
         <div class="reviews__subtitle">
@@ -226,7 +230,7 @@
             faster than ever!</p>
         <button class="banner__button">Download</button>
     </section>
-    <section class="form">
+    <section class="form" id="Contact">
         <h2 class="form__heder">CONTACT US</h2>
         <div class="form__line"></div>
         <p class="form__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
